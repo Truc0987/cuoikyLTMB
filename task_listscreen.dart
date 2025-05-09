@@ -270,7 +270,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
 
   Future<List<User>> _fetchUserList(BuildContext context) async {
     // TODO: Lấy danh sách user từ database hoặc provider
-    // Ở đây giả định tạm thời trả về danh sách rỗng hoặc user mẫu:
+    // tạm thời trả về danh sách rỗng hoặc user mẫu:
     return [
       User(id: '1', username: 'admin', password: '', email: '', avatar: null, createdAt: DateTime.now(), lastActive: DateTime.now()),
       User(id: '2', username: 'user1', password: '', email: '', avatar: null, createdAt: DateTime.now(), lastActive: DateTime.now()),
