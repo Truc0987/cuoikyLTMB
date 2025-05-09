@@ -37,7 +37,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
     if (success) {
       // Đăng nhập thành công, chuyển hướng (AuthWrapper sẽ tự làm điều này).
-      // Nếu muốn bạn có thể dùng Navigator.pushReplacementNamed(...)
     } else {
       setState(() {
         _errorMessage = 'Tên đăng nhập hoặc mật khẩu không đúng';
