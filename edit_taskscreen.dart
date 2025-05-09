@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import "package:file_picker/file_picker.dart";
-
 import '../model/task_model.dart';
 import '../model/user_model.dart';
 
 class EditTaskScreen extends StatefulWidget {
-  final Task? task; // Nếu null là tạo mới
+  final Task? task;
   final List<User> userList; // Danh sách người dùng để chọn giao việc
   final User loggedInUser; // Người dùng đang đăng nhập
 
