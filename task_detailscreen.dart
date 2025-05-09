@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
 import '../model/task_model.dart';
-// Nếu bạn có model User và provider user, bạn có thể gửi ID assignedTo sang để hiển thị tên người giao
 
 class TaskDetailScreen extends StatelessWidget {
   final Task task;
